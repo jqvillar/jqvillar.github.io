@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Janine Villareal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/shared.css">
+        <link rel="stylesheet" type="text/css" href="css/welcomeAndAbout.css">
+        <link rel="shortcut icon" href="">
+        
+        <!--
+        bootstrap
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+            
+            <!--
+            //////////////////
+            //////WELCOME/////
+            //////////////////
+            -->
+            <div class="welcome">
+                <div class="jumbotron" id="welcomeCard">
+                    <div class="row">
+                        <div class="col-lg-6">    
+                            <img class="img-responsive" src="images/Thoughtjar.png" alt="thought jar drawing" id="jar">
+                        </div>
+                        <div class=" text-center col-lg-6" id="welcomeMessage">    
+                            <h1>Welcome!</h1>
+                            <span>I'm the proud thought jar of:</span><br />
+                            <span id="name">Janine Villareal</span><br />
+                            <span>Click any of the items below to discover more of her thoughts!</span><br />
+                            <!--SOCIAL ICONS and DOWNLOAD RESUME BUTTON-->
+                            <div class="text-center">    
+                                <a href="https://twitter.com/jqvillar"><img class="img-responsive socialIcon" src="images/Twitter_Icon.png" alt= "Twitter Icon-Can click"></a>
+                                <a href="https://linkedin.com/in/janine-villareal"><img class="img-responsive socialIcon" src="images/Linkedin_Icon.png" alt="LinkedIn Icon- Can click"></a>
+                                <a href="https://github.com/jqvillar"><img class="img-responsive socialIcon" src="images/GitHub_Icon.png" alt="GitHub Icon- Can click"></a>
+                                <br />
+                                <button class="btn btn-default btn-s orangeBtn" id="downloadResume" onClick="location.href='files/JVResume.pdf'">
+                                    <span class="glyphicon glyphicon-download-alt"></span> Download Resume
+                                </button>
+                            </div>
+                            <hr>
+                            <!--SITE NAVIGATION-->
+                            <div class="btn-group btn-group-lg btn-block text-center welcomeNav" role="group">
+                                <div class="col-sm-4 col-md-4 col-lg-4">
+                                    <a href="#aboutStart">ABOUT</a>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-lg-4">
+                                    <a href="projects.html">PROJECTS</a>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-lg-4">
+                                    <a href="underconstruction.html">CONTACT</a>
+                                </div>    
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--
+            //////////////////
+            ///////ABOUT//////
+            //////////////////
+            -->
+            <div class="about" id="aboutStart">
+                <div class="row about">
+                    <h1 class="text-center" id="h_about">ABOUT</h1>
+                    <div class="col-xs-12 col-xs-offset col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center" id="a_intro">
+                        <img class="img-responsive a_imgCenter" src="images/Avy.png" alt="Avatar">
+                        <span class="medium_header">Hello There!</span><br />
+                        <p class="general_text">You may already know that my name is Janine. I'm a computer science graduate aspiring to bring joy, excitement, and satisfaction
+                        to users around the globe!</p>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center" id="a_beenUpto">
+                        <span class="medium_header">What I've been upto.</span><br />
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <img class="img-responsive imgLeft" src="images/Plane.png" alt="Airplane">
+                                <p class="general_text" id="travel">
+                                For the first three months after graduation I decided to travel! I traveled to London, France, Germany, and Los Angeles!</p>
+                                <br />
+                            </div>
+                            <div class="col-lg-12">
+                                <img class="img-responsive imgRight" src="images/Computer.png" alt="Computer" id="a_computer">
+                                <p class="general_text" id="improving">After traveling and relaxing, 
+                                I started thinking of projects to work on in order to improve my technical skills and practice what i've learned in university.
+                                One project that I have taken a particular liking to is the 'Daily UI Challenge' where I create UI everyday for a hundred days!
+                                Aside from that, I've been reading and brushing up on some HTML, CSS, PHP, and C#.</p>
+                            </div>
+                        </div>    
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center" id="a_iCanDo">
+                        <span class="medium_header">What I can do.</span><br />
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <img class="img-responsive imgLeft" src="images/Learn.png" alt="Tree photo- for growth and learning" id="a_tree">
+                                <h3 class="small_header">I can learn.</h3>
+                                <p class="general_text" id="learn">Everyday I am learning. 
+                                 Years in university, working, and participating in extracurricular activities have taught me a lot about 
+                                 myself, others, and the world around me. The things I have learned helped me develop invaluable soft skills and technical skills.
+                                 Good written and verbal communication, self-awareness, ability to work in a team, and effective problem solving, just to name a few.
+                                </p>
+                            </div>
+                            <div class="col-lg-12">
+                                <h3 class="small_header">I can do.</h3>
+                                <img class="img-responsive imgRight" src="images/Finish.png" alt="Finish line photo" id="a_finish">
+                                <p class="general_text" id="do">I believe that applying what you learn in your everyday life is crucial.
+                                This is why everyday I try my hardest to apply the things I have learned to accomplish tasks and reach my goals.</p>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            
+            <!--
+            //////////////////
+            ////GET TO KNOW///
+            //////////////////
+            -->
+            <div class="knowMore">
+                <div class="col-lg-12 text-center" id="getToKnow">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p id="h_getToKnow">Know more about me!</p>
+                        <a href="https://twitter.com/jqvillar"><img class="img-responsive socialIcon" src="images/Twitter_Icon.png" alt= "Twitter Icon-Can click"></a>
+                        <a href="https://linkedin.com/in/janine-villareal"><img class="img-responsive socialIcon" src="images/Linkedin_Icon.png" alt="LinkedIn Icon- Can click"></a>
+                        <a href="https://github.com/jqvillar"><img class="img-responsive socialIcon" src="images/GitHub_Icon.png" alt="GitHub Icon- Can click"></a>
+                        <br />
+                        <button class="btn btn-default btn-s orangeBtn" id="bot_contact" onClick="location.href='underconstruction.html'">
+                         Contact
+                        </button><br/>
+                        <p class="copyright">© 2017 <u>Janine Villareal</u>. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </body>
+</html>
