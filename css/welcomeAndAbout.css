@@ -1,0 +1,379 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 26, 2017, 4:20:40 AM
+    Author     : Janine
+*/
+
+/*********************
+ WELCOME CARD STYLING
+**********************/
+#welcomeCard{ /*BG COLOR OF CARD*/
+    background-color: #AFDCDD !important;
+}
+
+#welcomeMessage{
+    font-family: Menlo;
+    color: #6D6D6D;
+    font-size: 120%;
+}
+
+#name{
+    font-family: Menlo;
+    font-size: 200%;
+    color: #FFF;
+}
+
+a .socialIcon{
+    display: inline;
+    margin: 3%;
+}
+
+hr{
+    border-color: #6D6D6D !important;
+    border-width: 2px !important; 
+}
+
+/*Welcome NAV*/
+.welcomeNav div a{
+    font-family: Menlo;
+    color: #6D6D6D;
+}
+
+.welcomeNav div a:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/*********************
+ABOUT SECTION STYLYING
+**********************/
+
+.about{
+    font-family: Menlo;
+}
+
+#h_about{
+    color: #6D6D6D;
+    font-size: 500%;
+}
+
+.medium_header{
+    font-size: 195%;
+    color: #00A4A7;
+}
+
+.small_header{
+    text-align: left;
+    color: #55BEC0;
+}
+
+#a_intro, #a_beenUpto, #a_iCanDo{
+    font-size: 115%;
+}
+
+#travel, #improving, #learn, #do{
+    text-align: left;
+}
+
+/* About images*/
+.a_imgCenter, .imgLeft, .imgRight{
+    display: block;
+}
+
+    .a_imgCenter{
+       margin: auto !important;
+    }  
+
+    .imgLeft{
+        float:left;
+    }
+
+    .imgRight{
+        float:right;
+    }
+
+/*********************
+GET TO KNOW STYLYING
+**********************/
+
+#getToKnow{ /*BG COLOR OF CARD*/
+    background-color: #AFDCDD !important;
+    margin: 0px !important;
+    font-family: Menlo;
+}
+
+#h_getToKnow{
+    font-size:250%;
+    color: #FFF;
+}
+
+#bot_contact{
+    font-size: 150%;
+}
+    #bot_contact a:hover{
+        text-decoration: none;
+    }
+
+/*********************
+    MEDIA QUERIES
+*********************/    
+
+    /*
+    @media only screen and (min-width:960px){styles for browsers larger than 960px; 
+    }
+    */
+    
+    
+    @media only screen and (min-width:1080px){/* styles for browsers larger than 1080px; */
+       
+        /**WELCOME CARD STYLE SECTION**/
+        #jar{
+            display:block;
+            margin: auto;
+        }
+        
+        #welcomeMessage{
+           padding-top: 3%;
+        }
+        .welcomeNav div a{
+            font-size: 160%;
+        }
+       
+        /**ABOUT STYLE SECTION**/
+        #h_about{
+           margin-bottom: 3%;
+       }
+       
+        #a_intro, #a_beenUpto, #a_iCanDo{
+            margin-bottom: 5%;
+        }
+        
+        #learn, #do{
+            overflow: hidden;
+        }
+        
+        #travel{
+           padding-top: 3.7%;
+        }
+        
+        #improving{
+            padding-top: 4%;
+        }
+        
+        /*About images*/
+        
+        #a_tree{
+            padding-top: 5%;
+        }
+        
+    }
+    
+    @media only screen and (min-width: 1260px){/* styles for browsers larger than 1260px; */
+        
+        /*WELCOME CARD STYLE SECTION*/
+        #welcomeMessage{
+           padding-top: 5%;
+        }
+       
+        .welcomeNav div a{
+            font-size: 180%;
+        }
+       
+       /**ABOUT STYLE SECTION**/
+       #h_about{
+           margin-bottom: 2%;
+        }
+       
+        #a_intro, #a_beenUpto, #a_iCanDo{
+            margin-bottom: 3%;
+        }
+        
+        #travel, #improving, #learn, #do{
+            overflow: hidden;
+        }
+        
+        #travel{
+           padding-top: 5%;
+        }
+        
+        #improving{
+            padding-top: 2%;
+        }
+        
+        /*About images*/
+        #a_tree{
+            padding-top: 12%;
+        }
+       
+    }
+
+    @media only screen and (min-width:1400px){/* styles for browsers larger than 1440px; */
+        
+        /**WELCOME CARD STYLE SECTION**/
+        #welcomeMessage{
+            padding-top: 10%;
+        }
+        
+        .welcomeNav div a{
+            font-size: 200%;
+        }
+        
+        /**ABOUT STYLE SECTION**/
+        
+        #h_about{
+            margin-bottom: 2%;
+        }
+        
+        #a_intro, #a_beenUpto, #a_iCanDo{
+            margin-bottom: 3%;
+        }
+        
+        #travel, #improving, #learn, #do{
+            overflow: hidden;
+        }
+        
+        #travel{
+           padding-top: 4%;
+        }
+        
+        #improving{
+            padding-top: 2%;
+        }
+        
+        /*About images*/
+        #a_tree{
+            padding-top: 7%;
+        }
+        
+        /**GET TO KNOW STYLE SECTION**/
+        .knowMore{
+            padding-top: 3%;
+        }
+    }
+    
+    @media only screen and (min-width:2000px){/* for sumo sized (mac) screens */
+        
+    }
+    
+    @media only screen and (max-device-width:480px){/* styles for mobile browsers smaller than 480px; (iPhone) */
+       
+       /**WELCOME CARD STYLE SECTION**/
+        #jar{
+            display:block;
+            margin: auto;
+        }
+        
+        #name{
+            font-size: 165%;
+        }
+        .welcomeNav div a{
+            font-size: 150%;
+        }
+        
+        #downloadResume{
+            font-size: 110%;
+        }
+        
+        /**ABOUT STYLE SECTION**/
+        #h_about{
+            margin-bottom: 5%;
+        }
+        
+        #a_intro, #a_beenUpto, #a_iCanDo{
+            margin-bottom: 12%;
+        }
+        
+        #travel{
+           padding-top: 5%;
+        }
+        
+        #improving{
+            padding-top: 2.5%;
+        }
+        
+        /*About images*/
+        #a_tree{
+            padding-top: 25%;
+        }
+        
+        /**GET TO KNOW STYLE SECTION**/
+        .knowMore{
+            padding-top: 3%;
+        }
+        
+        #h_getToKnow{
+            font-size: 180%;
+        }
+        
+        #bot_contact{
+            font-size: 140%;
+        }
+    }
+    
+    @media only screen and (device-width:768px){/* default iPad screens */
+        
+        /**WELCOME CARD STYLE SECTION**/
+        #jar{
+            display:block;
+            margin: auto;
+        }
+        
+        .welcomeNav div a{
+            font-size: 160%;
+        }
+        
+        #downloadResume{
+            font-size: 120%;
+        }
+        
+        /*ABOUT STYLE SECTION*/
+        
+        #h_about{
+            margin-bottom: 2%;
+        }
+        
+        #a_intro, #a_beenUpto, #a_iCanDo{
+            margin-bottom: 6%;
+        }
+        
+        #travel{
+           padding-top: 5%;
+        }
+        
+        #improving{
+            padding-top: 2.8%;
+        }
+        
+        /*About images*/
+        #a_tree{
+            padding-top: 13%; 
+            padding-bottom: 25%;
+            margin-right: 2%;
+        }
+        
+        #a_computer{
+            padding-top: 10%;
+            padding-bottom: 15%; 
+        }
+        
+        /**GET TO KNOW STYLE SECTION**/
+        .knowMore{
+            padding-top: 3%;
+        }
+
+    }
+    
+    
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+    }
