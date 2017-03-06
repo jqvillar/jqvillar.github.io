@@ -29,7 +29,9 @@ and open the template in the editor.
 
 a .socialIcon{
     display: inline;
-    margin: 2% 2% 0% 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 hr{
