@@ -29,7 +29,7 @@ and open the template in the editor.
 
 a .socialIcon{
     display: inline;
-    margin: 2% 2% 1% 2%;
+    margin: 2% 2% 0% 2%;
 }
 
 
@@ -115,10 +115,12 @@ GET TO KNOW STYLYING
 
 #bot_contact{
     font-size: 150%;
+    margin: 2%;
 }
     #bot_contact a:hover{
         text-decoration: none;
     }
+        
 
 /*********************
     MEDIA QUERIES
