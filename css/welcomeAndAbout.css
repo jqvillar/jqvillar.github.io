@@ -27,13 +27,6 @@ and open the template in the editor.
     color: #FFF;
 }
 
-a .socialIcon{
-    display: inline;
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
 hr{
     border-color: #6D6D6D !important;
     border-width: 2px !important; 
