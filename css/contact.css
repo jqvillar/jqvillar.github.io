@@ -22,6 +22,10 @@ textarea{
     resize: none;
 }
 
+#contact_head, .form{
+    font-family: Menlo;
+}
+
 
 /*MEDIA QUERIES*/
 @media only screen and (min-width:1080px){/* styles for browsers larger than 1080px; */
