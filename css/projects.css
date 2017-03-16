@@ -22,6 +22,10 @@ and open the template in the editor.
     padding: 0px !important;
 }
 
+.hidden-content{
+    display:none;
+}
+
 .proj_Link{
     color: #1F75FE;
 }
