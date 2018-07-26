@@ -1,171 +1,121 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
-    <head>
-        <title>Janine Villareal</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/shared.css">
-        <link rel="stylesheet" type="text/css" href="css/welcomeAndAbout.css">
-        <link rel="shortcut icon" href="">
-        
-        <!--
-        bootstrap
-        -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
-        <!--
-        javascript
-        -->
-        <script type="text/javascript" src="jquery-1.8.3.js"></script>
-        
-        <!--tracking code-->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <head>
+    <meta charset="utf-8">
+    <title>Janine Villareal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" style="text/css" href="resources/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.4/jquery.fullPage.css"/>
+    <link rel="stylesheet" style="text/css" href="resources/css/master.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
-            ga('create', 'UA-92771682-1', 'auto');
-            ga('send', 'pageview');
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.4/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="./resources/js/main.js"></script>
+  </head>
+  <body>
 
-            alert("I'm getting redesigned! To check my progress: https://github.com/jqvillar/WebRD");
-        </script>
-        
-    </head>
-    <body>
-        <div class="container-fluid">
-            
-            <!--
-            //////////////////
-            //////WELCOME/////
-            //////////////////
-            -->
-            <div class="welcome">
-                <div class="jumbotron" id="welcomeCard">
-                    <div class="row">
-                        <div class="col-lg-6">    
-                            <img class="img-responsive" src="images/Thoughtjar.png" alt="thought jar drawing" id="jar">
-                        </div>
-                        <div class=" text-center col-lg-6" id="welcomeMessage">    
-                            <h1>Welcome!</h1>
-                            <span>I'm the proud thought jar of:</span><br />
-                            <span id="name">Janine Villareal</span><br />
-                            <span>Click any of the items below to discover more of her thoughts!</span><br />
-                            <!--SOCIAL ICONS and DOWNLOAD RESUME BUTTON-->
-                            <div class="text-center">    
-                                <a href="https://twitter.com/jqvillar"><img class="img-responsive socialIcon" src="images/Twitter_Icon.png" alt= "Twitter Icon-Can click"></a>
-                                <a href="https://linkedin.com/in/janine-villareal"><img class="img-responsive socialIcon" src="images/Linkedin_Icon.png" alt="LinkedIn Icon- Can click"></a>
-                                <a href="https://github.com/jqvillar"><img class="img-responsive socialIcon" src="images/GitHub_Icon.png" alt="GitHub Icon- Can click"></a>
-                                <a href="http://codepen.io/jqvillar/"><img class="img-responsive socialIcon" src="images/Codepen.png" alt="CodePen Icon- Can click"></a>
-                                <br />
-                            </div>
-                            <hr>
-                            <!--SITE NAVIGATION-->
-                            <div class="btn-group btn-group-lg btn-block text-center welcomeNav" role="group">
-                                <div class="col-sm-4 col-md-4 col-lg-4">
-                                    <a href="#aboutStart">ABOUT</a>
-                                </div>
-                                <div class="col-sm-4 col-md-4 col-lg-4">
-                                    <a href="projects.html">PROJECTS</a>
-                                </div>
-                                <div class="col-sm-4 col-md-4 col-lg-4">
-                                    <a href="contact.html">CONTACT</a>
-                                </div>    
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!--
-            //////////////////
-            ///////ABOUT//////
-            //////////////////
-            -->
-            <div class="about" id="aboutStart">
-                <div class="row about">
-                    <h1 class="text-center" id="h_about">ABOUT</h1>
-                    <div class="col-xs-12 col-xs-offset col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center" id="a_intro">
-                        <img class="img-responsive a_imgCenter" src="images/Avy.png" alt="Avatar">
-                        <span class="medium_header">Hello There!</span><br />
-                        <p class="general_text">You may already know that my name is Janine. I'm a computer science graduate aspiring to bring joy, excitement, and satisfaction
-                        to users around the globe!</p>
-                    </div>
-                    
-                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center" id="a_beenUpto">
-                        <span class="medium_header">What I've been upto.</span><br />
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <img class="img-responsive imgLeft" src="images/Plane.png" alt="Airplane">
-                                <p class="general_text" id="travel">
-                                For the first three months after graduation I decided to travel! I traveled to London, France, Germany, and Los Angeles!</p>
-                                <br />
-                            </div>
-                            <div class="col-lg-12">
-                                <img class="img-responsive imgRight" src="images/Computer.png" alt="Computer" id="a_computer">
-                                <p class="general_text" id="improving">After traveling and relaxing, 
-                                I started thinking of projects to work on in order to improve my technical skills and practice what I've learned in university.
-                                One project that I have taken a particular liking to is the 'Daily UI Challenge' where I create UI everyday for a hundred days!
-                                Aside from that, I've been reading and brushing up on some HTML, CSS, PHP, and C#.</p>
-                            </div>
-                        </div>    
-                    </div>
-                    
-                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center" id="a_iCanDo">
-                        <span class="medium_header">What I can do.</span><br />
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <img class="img-responsive imgLeft" src="images/Learn.png" alt="Tree photo- for growth and learning" id="a_tree">
-                                <h3 class="small_header">I can learn.</h3>
-                                <p class="general_text" id="learn">Everyday I am learning. 
-                                 Years in university, working, and participating in extracurricular activities have taught me a lot about 
-                                 myself, others, and the world around me. The things I have learned helped me develop invaluable soft skills and technical skills.
-                                 Good written and verbal communication, self-awareness, ability to work in a team, and effective problem solving, just to name a few.
-                                </p>
-                            </div>
-                            <div class="col-lg-12">
-                                <h3 class="small_header">I can do.</h3>
-                                <img class="img-responsive imgRight" src="images/Finish.png" alt="Finish line photo" id="a_finish">
-                                <p class="general_text" id="do">I believe that applying what you learn in your everyday life is crucial.
-                                This is why everyday I try my hardest to apply the things I have learned to accomplish tasks and reach my goals.</p>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-            </div>
-            
-            <!--
-            //////////////////
-            ////GET TO KNOW///
-            //////////////////
-            -->
-            <div class="knowMore">
-                <div class="col-lg-12 text-center" id="getToKnow">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <p id="h_getToKnow">Know more about me!</p>
-                        <a href="https://twitter.com/jqvillar"><img class="img-responsive socialIcon" src="images/Twitter_Icon.png" alt= "Twitter Icon-Can click"></a>
-                        <a href="https://linkedin.com/in/janine-villareal"><img class="img-responsive socialIcon" src="images/Linkedin_Icon.png" alt="LinkedIn Icon- Can click"></a>
-                        <a href="https://github.com/jqvillar"><img class="img-responsive socialIcon" src="images/GitHub_Icon.png" alt="GitHub Icon- Can click"></a>
-                        <a href="http://codepen.io/jqvillar/"><img class="img-responsive socialIcon" src="images/Codepen.png" alt="CodePen Icon- Can click"></a>
-                        <br />
-                        <button class="btn btn-default btn-s orangeBtn" id="bot_contact" onClick="location.href='contact.html'">
-                         Contact
-                        </button><br/>
-                        <p class="copyright">© 2017 <u>Janine Villareal</u>. All rights reserved.</p>
-                    </div>
-                </div>
-            </div>
-            
-            
+    <!-- Nav and Nav Overlay section -->
+    <div class="container-fluid fixed-top d-inline-flex justify-content-between align-items-center mt-3">
+      <div class="img-container navbar-brand col-5 col-md-4 col-lg-3">
+        <img id="logo" src="resources/images/JanineLogo.svg" alt="Janine Portfolio Logo">
+      </div>
+      <div class="text-right col-3 col-md-4 col-lg-2">
+        <div id="hamburger" class="menuContainer">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
         </div>
-    </body>
+      </div>
+    </div>
+
+    <nav class="overlay">
+      <div id="overlayMenu" class="container-fluid d-flex justify-content-center align-items-center">
+        <ul class="montSB xlTxt d-flex flex-column align-items-center">
+          <li class="m-4"><a class="menuItem" href="#">About Me</a></li>
+          <li class="m-4"><a class="menuItem" href="#">Projects</a></li>
+          <li class="d-inline-flex m-4">
+          <a class="menuItem" href="#"><i class="fab fa-linkedin-in mr-5"></i></a>
+          <a class="menuItem" href="#"><i class="fab fa-twitter mr-5"></i></a>
+          <a class="menuItem" href="#"><i class="fab fa-codepen mr-5"></i></a>
+          <a class="menuItem" href="#"><i class="fab fa-github-alt"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="#fullpage"><!--for fullpagescroll-->
+      <!--Intro Section -->
+      <div id="intro" class="container-fluid section">
+        <div class="header"><!--Intro texts-->
+            <div id="welcome_message" class="col-10">
+              <p class="montSB xlTxt">Hello!<br>
+                I'm Janine a UX/UI Designer currently exploring more of the digital world
+                and the products that live in it.</p>
+              <div class="btn-wrapper">
+                <a href="#" class="customBtn btnTxt">My journey <i class="far fa-paper-plane"></i></a>
+              </div>
+            </div>
+          </div>
+      </div> <!--end Intro Section-->
+
+
+      <!--Project 1 Section-->
+      <div id="cheers" class="container-fluid section">
+        <div class="col-8 col-md-5">
+          <h3 class="montB projectType">Mobile App Concept</h3>
+          <h1 class="montSB xlTxt">"Cheers"</h1>
+          <p class="montReg description">“Cheers” is a drink delivery app with a twist.
+            It’s an app concept developed around the act of giving and delivering drinks to friends, family, and coworkers. </p>
+          <div class="btn-wrapper">
+            <a href="#" class="customBtn btnTxt">Discover Project</a>
+          </div>
+        </div>
+      </div><!--end Project 1 Section-->
+
+
+      <!--Project 2 Section-->
+      <div id="critical" class="container-fluid section">
+        <div class="col-8 col-md-5">
+          <h3 class="montB projectType">Web Application/ Discovery</h3>
+          <h1 class="montSB xlTxt">Critical Control Executive Dashboard</h1>
+          <p class="montReg description"><a class="businessLink" href="http://criticalcontrol.com/">Critical Control Energy Services</a> is a company that provides cloud-based software for the oil and gas industry.
+            For this project I had the pleasure of taking part in exploring where they could take their vision for an executive dashboard. </p>
+          <div class="btn-wrapper">
+            <a href="#" class="customBtn btnTxt">Discover Project</a>
+          </div>
+        </div>
+      </div><!--end Project 1 Section-->
+
+      <!--Project 3 Section-->
+      <div id="relish" class="container-fluid section">
+        <div class="col-8 col-md-5">
+          <h3 class="montB projectType">Mobile App Redesign Concept</h3>
+          <h1 class="montSB xlTxt">Relish - <br>Record, Listen, Shine</h1>
+          <p class="montReg description">Relish is a an iOS mobile app that is meant to help users take dance videos by playing their music while they take the video.
+            It was the first project I worked on with <a class="businessLink" href="http://www.sozentech.com/">SozenTech</a> and
+            for this project I was tasked with redesigning and reimagining what it could become.</p>
+          <div class="btn-wrapper">
+            <a href="#" class="customBtn btnTxt">Discover Project</a>
+          </div>
+        </div>
+      </div><!--end Project 1 Section-->
+
+      <!--Project 4 Section-->
+      <div id="minis" class="container-fluid section">
+        <div class="col-8 col-md-5">
+          <h3 class="montB projectType">Assortment</h3>
+          <h1 class="montSB xlTxt">"Minis"<br> Project Series</h1>
+          <p class="montReg description">The "Minis" is a collection of
+          small projects that I did to try new things, to learn, and for fun! "Minis"
+        include revisiting and redesigning old 'Daily UI' projects, new UI Design, and more!</p>
+          <div class="btn-wrapper">
+            <a href="#" class="customBtn btnTxt">Discover Project</a>
+          </div>
+        </div>
+      </div><!--end Project 1 Section-->
+    </div>
+
+  </body>
 </html>
