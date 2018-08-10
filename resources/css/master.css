@@ -86,6 +86,50 @@ a.businessLink{
   background: #77C7EC !important;
 }
 
+/******************************* Project Backgrounds *******************************/
+#cheers{
+  background:
+    url("../images/CheersBG2.png")
+    center
+    no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#critical{
+  background:
+    url("../images/CriticalBG.png")
+    center
+    no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#relish{
+  background:
+    url("../images/RelishBG.png")
+    center
+    no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#minis{
+  background:
+    url("../images/MinisBG.png")
+    center
+    no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 /*Txt Styles*/
 .montReg{
@@ -214,40 +258,6 @@ a.businessLink{
 
   #logo{
     width: 35%;
-  }
-
-  /******************************* Project Backgrounds *******************************/
-  #cheers{
-    background:
-      url("../images/CheersBGx2.png")
-      center
-      no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-  #critical{
-    background:
-      url("../images/CriticalBG.png")
-      center
-      no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-  #relish{
-    background:
-      url("../images/RelishBG.png")
-      center
-      no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
   }
 
 
