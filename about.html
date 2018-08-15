@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>About - Janine Villareal</title>
+    <title>About- Janine Villareal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" style="text/css" href="resources/css/reset.css">
@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./resources/js/main.js"></script>
+    <script type="text/javascript" src="resources/js/noFullPgScroll.js"></script>
   </head>
   <body>
 
     <!-- Nav and Nav Overlay section -->
     <div class="container-fluid fixed-top d-inline-flex justify-content-between align-items-center mt-3">
       <div class="img-container navbar-brand col-5 col-md-4 col-lg-3">
-        <img id="logo" src="resources/images/JanineLogo.svg" alt="Janine Portfolio Logo">
+        <a href="index.html"><img id="logo" src="resources/images/JanineLogo.svg" alt="Janine Portfolio Logo"></a>
       </div>
       <div class="text-right col-3 col-md-4 col-lg-2">
         <div id="hamburger" class="menuContainer">
@@ -31,7 +31,7 @@
     <nav class="overlay">
       <div id="overlayMenu" class="container-fluid d-flex justify-content-center align-items-center">
         <ul class="montSB xlTxt d-flex flex-column align-items-center">
-          <li class="m-4"><a class="menuItem" href="index.html">Home</a></li>
+          <li class="m-4"><a class="menuItem currentPage" href="about.html">About Me</a></li>
           <li class="m-4"><a class="menuItem" href="#">Projects</a></li>
           <li class="d-inline-flex m-4">
             <a class="menuItem" href="https://www.linkedin.com/in/janine-villareal"><i class="fab fa-linkedin-in mr-5"></i></a>
@@ -43,42 +43,45 @@
       </div>
     </nav>
 
-    <div id="">
-      <!--About Me Introduction-->
-      <div id="abtMe" class="container-fluid">
-        <div class="col-10">
+      <div id="abtMe" class="container-fluid section">
+        <div class="topSectionHeader"><!--Title-->
           <h1 class="montSB xlTxt">Exploring,<br /> Learning,<br /> & Creating</h1>
         </div>
-        <div class="d-flex flex-column flex-md-row">
-          <div class="col-10 col-md-3">
-            <p class="montReg description">Hello and welcome!
-              My name is Janine and I’m a UX/UI Designer currently based in Calgary, Canada.
-              I’ve been exploring, discovering, and creating digital products since 2016.
-              I’ve also had the pleasure of working at SozenTech as a Jr. UX/UI Designer from Oct 2017 to June 2018.
-              These days I’ve been learning more about logo creation and branding on top of expanding my UX/UI knowledge by doing some personal projects.
-              Occasionally, I also instruct and facilitate a condensed Sprint workshop for SozenTech. </p>
-              <p class="montReg description">I started out with UX/UI design because I fell in love.
-                I fell in love with digital products when I realized that I use a lot of them to help better my life.
-                The thought of being able to create good products that can help people really inspired me (and still inspires me)
-                and pushed me to start exploring the world of digital products.</p>
-          </div>
-          <div class="col-10 col-md-3">
-            <p class="montReg description">My exploration first lead me to the “daily UI challenge” where I found out how challenging making a sign up page was.
-              Day one made my brain numb after a lot of , “Where would the buttons go?”, “Where would this input field go?”, “WHAT ARE COLORS?!”.
-              I was surprised at how much I didn’t know.
-              To be honest, I still feel that there’s a lot that I still I don’t know and to me that’s okay.
-              If I knew everything and have made everything that means there’s nothing for me to do and i’d miss out on a lot of cool stuff.
-              That’s why it’s difficult for me to say where I am exactly in my UX/UI design journey but I can definitely say I’m enjoying it a lot.
-              I get to meet, get to know, talk to, teach and create with lots of cool people.
-              I also get involved in the process of making cool stuff that people can enjoy.
-              Who doesn’t love that?</p>
-          </div>
+        <div class="contentSection montReg row"><!--Content-->
+          <div class="col-11 col-md-8 col-lg-5">
+            <p>Hello again!
+            I'm Janine a UX/UI Designer currently based in Calgary, Canada.
+            I’ve been exploring, discovering, and creating digital products since 2016.
+            I’ve also had the pleasure of working at <a class="businessLink" href="http://www.sozentech.com/">SozenTech</a> as a Jr. UX/UI Designer from Oct 2017 to June 2018.
+            </p>
+            <p>These days I’ve been learning more about logo creation and branding on top of expanding my UX/UI knowledge by doing some personal projects.
+              Occasionally, I also instruct and facilitate a condensed Sprint workshop for <a class="businessLink" href="http://www.sozentech.com/">SozenTech</a>.
+            </p>
+            <p>I started out with UX/UI design when I fell in love with digital products. I love how a single app can make such a huge difference in
+              someone's life. The thought of being able to create good products that can help people really inspires me and pushes me to learn and explore
+              more of the digital world and the products that live in it.
+            </p>
+            </div>
+          <div class="col-11 col-md-8 col-lg-5">
+            <p>
+            My exploration first lead me to the “daily UI challenge” where I found out how challenging making a sign up page was.
+            Day one made my brain numb after a lot of , “Where would the buttons go?”, “Where would this input field go?”, "What is it?",
+            I was surprised at how much I didn’t know.
+            </p>
+            <p>
+            There’s a lot that I still don’t know and that’s okay.
+            If I knew and made everything, that means there’s nothing for me to do and I’d miss out on a lot of cool stuff.
+            Cool stuff like getting to meet, to know, talk to, teach and create with lots of cool people.
+            I also get involved in the process of making cool stuff that people can enjoy.
+            Who'd wanna miss out on that?
+            </p>
+            </div>
         </div>
       </div><!--end About Me Intro-->
 
-      <div id="abtMe" class="container-fluid">
-        <ul class="montSB xlTxt d-flex flex-column">
-          <li><h1 class="montSB xlTxt">Curious? Let's chat!</h1></li>
+      <div id="contact" class="container-fluid section mt-5">
+        <ul class="montSB xlTxt">
+          <li><h1 class="normSectionHeader">Let's chat!</h1></li>
           <li class="d-inline-flex m-4">
             <a class="menuItem" href="https://www.linkedin.com/in/janine-villareal"><i class="fab fa-linkedin-in mr-5"></i></a>
             <a class="menuItem" href="https://twitter.com/jqvillar"><i class="fab fa-twitter mr-5"></i></a>
