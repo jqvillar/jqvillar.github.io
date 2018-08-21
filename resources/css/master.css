@@ -15,14 +15,18 @@ a.menuItem{
   text-decoration: underline;
 }
 
-a.businessLink{
+a.textLink{
   text-decoration: none;
   color:#298EBA;
 
-} a.businessLink:hover{
+} a.textLink:hover{
   background-color: #77C7EC;
   color: #FFFFFF;
  }
+
+.img-wrapper{
+  width: 100%;
+}
 
 .section,.contentSection{
   max-width: 100vw;
@@ -49,11 +53,9 @@ a.businessLink{
 }
 
 .customBtn{
-  background-image: linear-gradient(120deg, #5CC1ED 0%, #5CC1ED 100%);
+  background-color: #5CC1ED;
   border-radius: 10px;
   padding: 1rem;
-  -webkit-transition: background-image 0.5s ease-in-out;
-  transition: 0.5 ease-in-out;
 }
 
 .customBtn:hover{
@@ -225,8 +227,12 @@ a.businessLink{
     line-height: 1.5rem;
   }
 
-  .projectType{
+  .projectType{/*H3 FOR INDEX*/
     margin-bottom: 1.5rem;
+  }
+
+  .caseH3{/*h3 for case studies*/
+    margin-bottom: 0.85rem;
   }
 
   .description{
@@ -267,6 +273,10 @@ a.businessLink{
 
   .projectType{
     margin-bottom: 2.0rem;
+  }
+
+  .caseH3{/*h3 for case studies*/
+    margin-bottom: 1.0rem;
   }
 
   .xlTxt{
