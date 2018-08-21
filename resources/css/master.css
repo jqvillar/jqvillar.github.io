@@ -24,6 +24,10 @@ a.textLink{
   color: #FFFFFF;
  }
 
+ p{
+   color:#868c93;
+ }
+
 .img-wrapper{
   width: 100%;
 }
@@ -222,7 +226,7 @@ a.textLink{
     margin: 3.0rem 0 1.20rem 1.5rem;
   }
 
-  .contentSection div{
+  .contentSection > div{
     margin:0 0 1rem 1.5rem;
     line-height: 1.5rem;
   }
