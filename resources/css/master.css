@@ -32,7 +32,7 @@ a.textLink{
   width: 100%;
 }
 
-.section,.contentSection{
+.section{
   max-width: 100vw;
 }
 
@@ -67,7 +67,7 @@ a.textLink{
 }
 
 /** MENU (HAMBURGER) ANIMATION **/
-.menuContainer {
+.menuContainer{
     display: inline-block;
 }
 
@@ -227,12 +227,16 @@ a.textLink{
   }
 
   .contentSection > div{
-    margin:0 0 1rem 1.5rem;
+    margin:0 0 1rem 1.5em;
     line-height: 1.5rem;
   }
 
   .projectType{/*H3 FOR INDEX*/
     margin-bottom: 1.5rem;
+  }
+
+  .caseOverview{
+    margin-top: 8rem;
   }
 
   .caseH3{/*h3 for case studies*/
@@ -270,13 +274,17 @@ a.textLink{
     margin: 3.0rem 0 1.20rem 1.5rem;
   }
 
-  .contentSection div{
+  .contentSection div{/*mostly for other pages excluding index*/
     margin:0 0 1rem 1.5rem;
     line-height: 1.5rem;
   }
 
   .projectType{
     margin-bottom: 2.0rem;
+  }
+
+  .caseOverview{
+    margin-top: 8rem;
   }
 
   .caseH3{/*h3 for case studies*/
