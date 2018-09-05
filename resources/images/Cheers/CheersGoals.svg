@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="870px" height="247px" viewBox="0 0 870 247" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>CheersGoals</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="14.6547485%" y1="49.9994725%" x2="100%" y2="49.9994725%" id="linearGradient-1">
+            <stop stop-color="#84FAB0" offset="0%"></stop>
+            <stop stop-color="#8FD3F4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CheersCaseStudy-LRG" transform="translate(-289.000000, -1352.000000)">
+            <g id="CheersGoals" transform="translate(289.000000, 1352.000000)">
+                <rect id="Rectangle-7" stroke="url(#linearGradient-1)" stroke-width="2.464" x="1.232" y="1.232" width="867.536" height="243.936"></rect>
+                <text id="1.-Provide-people-wi" font-family="Montserrat-SemiBold, Montserrat" font-size="29.568" font-weight="500" fill="#5CC1ED">
+                    <tspan x="97.672" y="68.424">1.  Provide people with the ability to get any </tspan>
+                    <tspan x="97.672" y="104.424">kind of drink delivered to them.</tspan>
+                </text>
+                <text id="2.-Be-widely-used-wi" font-family="Montserrat-SemiBold, Montserrat" font-size="29.568" font-weight="500" fill="#5CC1ED">
+                    <tspan x="97.6" y="164.0272">2.  Be widely used with a solid customer </tspan>
+                    <tspan x="97.6" y="200.0272">base.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
