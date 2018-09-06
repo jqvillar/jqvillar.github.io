@@ -26,6 +26,7 @@ a.textLink{
 
  p{
    color:#868c93;
+   font-family: MontserratLight;
  }
 
 hr{
@@ -39,6 +40,11 @@ hr{
 
 .section{
   max-width: 100vw;
+}
+
+.caseBanner{
+  height: 100vh;
+  width: 100vw;
 }
 
 .overlay {
@@ -117,6 +123,18 @@ hr{
   -o-background-size: cover;
   background-size: cover;
 }
+
+#cheersCaseBG{
+  background:
+    url("../images/Cheers/CheersCaseBanner2.png")
+    center
+    no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 #critical{
   background:
@@ -256,7 +274,7 @@ hr{
   }
 
   .caseOverview{
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
 
   .description{
@@ -275,6 +293,7 @@ hr{
 
   .lgTxt{
     font-size: 1.75rem;
+    line-height: 1.7rem;
   }
 
 }
@@ -304,7 +323,7 @@ hr{
   }
 
   .caseOverview{
-    margin-top: 8rem;
+    margin-top: 4rem;
   }
 
   /* text */
