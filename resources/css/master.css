@@ -152,6 +152,11 @@ hr{
 }
 
 /*Txt Styles*/
+
+.montB.casePrtTxt{/*text color for "parts" of case studies*/
+  color:#8ae6d4;
+}
+
 .montReg{
   font-family: Montserrat;
   color: #77C7EC;
@@ -254,10 +259,6 @@ hr{
     margin-top: 8rem;
   }
 
-  .caseH3{/*h3 for case studies*/
-    margin-bottom: 0.85rem;
-  }
-
   .description{
     margin: 0.35rem 0rem 3.0rem 0rem;
   }
@@ -306,10 +307,7 @@ hr{
     margin-top: 8rem;
   }
 
-  .caseH3{/*h3 for case studies*/
-    margin-bottom: 1.0rem;
-  }
-
+  /* text */
   .xlTxt{
     font-size: 4.0rem;
     line-height:3.5rem;
@@ -317,6 +315,7 @@ hr{
 
   .lgTxt{
     font-size: 2.5rem;
+    line-height: 2.6rem;
   }
 
   .btnTxt{
@@ -346,7 +345,6 @@ hr{
   .xlTxt{
     line-height: 3.95rem;
   }
-
 }
 
 @media only screen and (min-width: 1024px){
