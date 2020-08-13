@@ -1,118 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Janine Villareal</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" style="text/css" href="resources/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.4/jquery.fullPage.css"/>
-    <link rel="stylesheet" style="text/css" href="resources/css/master.css">
+    <title>Janine V Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./resources/css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.4/jquery.fullPage.js"></script>
-    <script type="text/javascript" src="./resources/js/main.js"></script>
   </head>
   <body>
 
-    <!-- Nav and Nav Overlay section -->
-    <div class="container-fluid fixed-top d-inline-flex justify-content-between align-items-center mt-3">
-      <div class="img-container navbar-brand col-5 col-md-4 col-lg-3">
-        <a  href="index.html">
-          <img id="logo" src="resources/images/JanineLogo.svg" alt="Janine Portfolio Logo">
-        </a>
-      </div>
-      <div class="text-right col-3 col-md-4 col-lg-2">
-        <div id="hamburger" class="menuContainer">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </div>
-      </div>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <a class="navbar-brand home" href="#">J.V.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <nav class="overlay">
-      <div id="overlayMenu" class="container-fluid d-flex justify-content-center align-items-center">
-        <ul class="montSB xlTxt d-flex flex-column align-items-center">
-          <li class="m-4"><a class="menuItem" href="about.html">About Me</a></li>
-          <li class="d-inline-flex m-4">
-            <a class="menuItem" href="https://www.linkedin.com/in/janine-villareal" target="_blank"><i class="fab fa-linkedin-in mr-5"></i></a>
-            <a class="menuItem" href="https://twitter.com/jqvillar" target="_blank"><i class="fab fa-twitter mr-5"></i></a>
-            <a class="menuItem" href="https://codepen.io/jqvillar/" target="_blank"><i class="fab fa-codepen mr-5"></i></a>
-            <a class="menuItem" href="https://github.com/jqvillar" target="_blank"><i class="fab fa-github-alt"></i></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#story">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <div id="fullpage"><!--for fullpagescroll-->
-      <!--Intro Section -->
-      <div id="intro" class="container-fluid section">
-        <div class="header"><!--Intro texts-->
-            <div id="welcome_message" class="col-11 col-md-10">
-              <p class="montSB xlTxt">Hello!<br>
-                I'm Janine, a UX/UI Designer currently exploring the digital world
-                and the products that live in it.</p>
-              <div class="btn-wrapper">
-                <a href="about.html" class="customBtn btnTxt">My journey <i class="far fa-paper-plane"></i></a>
-              </div>
-            </div>
-          </div>
-      </div> <!--end Intro Section-->
+    <section class="cover jumbotron jumbotron-fluid d-flex flex-column justify-content-end align-items-end">
+      <div class="container-fluid">
+        <h1>Welcome!</h1>
+        <p>Glad you could make it!</p>
+        <h4 style="width: 100%; text-align: center;"><i class="fas fa-chevron-down"></i></h4>
+      </div>
+    </section>
 
+    <section id="about" class="container-fluid d-flex flex-column justify-content-center align-items-center">
+      <div class="content col-10 col-lg-4">
+        <h1 class="text-center">About Me</h1><br>
+        <p>I'm Janine, a curious mind living in Calgary, Canada.
+          I love video games, espcially MMOS, and am currently playing Final Fantasy XIV (Shadow Bringers is the best Final Fantasy game, change my mind LOL).
+          Aside from games I also love eating and traveling! Up next on my travel list is Germany! Going to try to see the port cities and Berlin!
+          <br><br>
 
-      <!--Project 1 Section-->
-      <div id="cheers" class="container-fluid section">
-        <div class="col-6 col-md-4">
-          <h3 class="montB projectType">Mobile App Concept</h3>
-          <h1 class="montSB xlTxt">Cheers</h1>
-          <p class="montReg description">Drink delivery mobile app concept with a twist!</p>
-          <div class="btn-wrapper">
-            <a href="caseStudies/cheers.html" class="customBtn btnTxt text-nowrap">Discover Project</a>
-          </div>
+          Lately, I've gotten into some game dev because I really realllllly want to make a game to honor my dog, Koopa.
+          My "Koopa" project hasn't taken off yet because I'm still practicing and learning how to use Unity and coding in C#.
+          It's definately a passion project for me so it'll happen for sure.
+
+          In terms of the dev work, honestly. it's not been easy since my dev skills are kinda rusty.
+          I have solid understanding of the basics, but let me tell you, no matter how many years I was in computer science or gone back to do some dev work,
+          algorithm design always manages to blow my mind.  <br><br>
+
+          Work wise, I've previously left my job at Plankk as a Production Coordinator in June, to further pursue a career in Project Management, as well as to go remote.
+          I've honestly chosen to go remote because I realized that the hours, effort, and money I was using could be better put towards bigger and better things to improve my life.
+          After working from home, I realized that it gave me a chance to better spend my time after work with my friends and family, to improve my health, and more time to invest in learning.<br><br>
+      </p>
+      </div>
+    </section>
+
+    <section class="tri-img-gallery">
+      <div class="img-wrapper tall-item">
+        <img class="img-fluid" src="./resources/img/Koopa.jpg" alt="">
+      </div>
+      <div class="img-wrapper">
+        <img class="img-fluid" src="./resources/img/greenhouse.jpg" alt="">
+      </div>
+      <div class="img-wrapper">
+        <img class="img-fluid" src="./resources/img/weddingBandW.png" alt="">
+      </div>
+    </section>
+
+    <section id="story" class="container-fluid d-flex flex-column justify-content-center align-items-center">
+      <div class="col-10 col-lg-4">
+        <h1 class="text-center">In the Works</h1><br>
+        <p>Recently I've insted more time in learning and practice. However, these are always on going projects for me.<br><br>
+          - Pacific Jewellery Website<br>
+          - My Personal Wesbite<br>
+          - Click through story game<br>
+        </p>
+      </div>
+    </section>
+
+    <section class="tri-img-gallery">
+      <div class="img-wrapper tall-item">
+        <img class="img-fluid" src="./resources/img/cactuspink.jpg" alt="">
+      </div>
+      <div class="img-wrapper">
+        <img class="img-fluid" src="./resources/img/snakeblue.jpg" alt="">
+      </div>
+      <div class="img-wrapper">
+        <img class="img-fluid" src="./resources/img/plantsalmon.jpg" alt="">
+      </div>
+    </section>
+
+    <section id="contact" class="container-fluid d-flex flex-column justify-content-center align-items-center">
+      <div class=" col-10 col-lg-4 text-center">
+        <h1>Let's Keep in Touch</h1><br>
+        <p>You can reach me on any of these platforms :)!</p>
+        <div class = "socials">
+          <a class="socialItem" href="https://www.linkedin.com/in/janine-villareal" target="_blank"><i class="fab fa-linkedin-in mr-5"></i></a>
+          <a class="socialItem" href="https://twitter.com/jqvillar" target="_blank"><i class="fab fa-twitter mr-5"></i></a>
         </div>
-      </div><!--end Project 1 Section-->
+      </div>
+    </section>
 
 
-      <!--Project 2 Section-->
-      <div id="critical" class="container-fluid section">
-        <div class="col-7 col-md-4">
-          <h3 class="montB projectType">Web Application/ Discovery</h3>
-          <h1 class="montSB xlTxt">Critical Control Executive Dashboard</h1>
-          <p class="montReg description"> I had the pleasure of working with <a class="textLink" href="http://criticalcontrol.com/"  target="_blank">Critical Control Energy Services</a>
-            exploring where they could take their vision for an executive dashboard. </p>
-          <div class="btn-wrapper">
-            <a href="comingSoon.html" class="customBtn btnTxt text-nowrap">Discover Project</a>
-          </div>
-        </div>
-      </div><!--end Project 2 Section-->
-
-      <!--Project 3 Section-->
-      <div id="relish" class="container-fluid section">
-        <div class="col-6 col-md-4">
-          <h3 class="montB projectType">Mobile App Redesign Concept</h3>
-          <h1 class="montSB xlTxt">Relish &#45; <br />Record, Listen, Shine</h1>
-          <p class="montReg description">My frist project with <a class="textLink" href="http://www.sozentech.com/"  target="_blank">SozenTech</a> was
-          to redesign and reimagine what Relish could be.</p>
-          <div class="btn-wrapper">
-            <a href="comingSoon.html" class="customBtn btnTxt text-nowrap">Discover Project</a>
-          </div>
-        </div>
-      </div><!--end Project 3 Section-->
-
-      <!--Project 4 Section-->
-      <div id="minis" class="container-fluid section">
-        <div class="col-8 col-md-4">
-          <h3 class="montB projectType">Assortment</h3>
-          <h1 class="montSB xlTxt">"Minis"<br> Project Series</h1>
-          <p class="montReg description">Small projects created for learning, practice, and fun!</p>
-          <div class="btn-wrapper">
-            <a href="comingSoon.html" class="customBtn btnTxt text-nowrap">Discover Project</a>
-          </div>
-        </div>
-      </div><!--end Project 4 Section-->
-    </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
 
   </body>
 </html>

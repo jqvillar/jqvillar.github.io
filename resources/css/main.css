@@ -1,0 +1,82 @@
+h1,h2,h3,h4{
+  font-family: NunitoSans;
+}
+
+p,a{
+  font-family: NunitoSans-L;
+}
+
+nav{
+  padding: 0 10% !important;
+  background-color: rgba(251, 250, 248, 0.7);
+}
+
+nav > div > ul > li{
+  padding-right: 20%;
+  padding-top: 5%;
+}
+
+.navbar-toggler{
+  border-color: rgba(0,0,0,0) !important;
+}
+
+section{
+  padding: 4% 10%;
+}
+
+#navbarSupportedContent > .navbar-nav > .navitem a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #EC0178;
+}
+
+a.socialItem, a.home{
+  color: #EC0178!important;
+}
+
+a.socialItem{
+  font-size: 200%;
+}
+
+.cover{
+  height: 100vh;
+  padding: 4% 15%;
+  background-image: url(../img/PaintSplat.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.img-wrapper{
+  width: auto;
+  height: 100%;
+}
+
+section.tri-img-gallery{
+  padding: 0% 20%;
+}
+
+.tri-img-gallery > div > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.tri-img-gallery{
+  display: grid;
+  grid-column-gap: 0px;
+  grid-template-columns: auto auto;
+}
+
+.tall-item {
+  grid-area: 1 / 1 / span 2/ span 1;
+}
+
+
+@font-face{
+    font-family: NunitoSans;
+    src: url(fonts/NunitoSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: NunitoSans-L;
+    src: url(fonts/NunitoSans-Light.ttf);
+}
