@@ -24,10 +24,6 @@ section{
   padding: 4% 10%;
 }
 
-#navbarSupportedContent > .navbar-nav > .navitem a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #EC0178;
-}
-
 a.socialItem, a.home{
   color: #EC0178 !important;
 }
