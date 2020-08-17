@@ -29,7 +29,7 @@ section{
 }
 
 a.socialItem, a.home{
-  color: #EC0178!important;
+  color: #EC0178 !important;
 }
 
 a.socialItem{
@@ -37,9 +37,9 @@ a.socialItem{
 }
 
 .cover{
-  height: 100vh;
+  height: 95vh;
   padding: 4% 15%;
-  background-image: url(../img/PaintSplat.jpg);
+  background-image: url(../img/PaintSplat1.jpg);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -79,4 +79,32 @@ section.tri-img-gallery{
 @font-face{
     font-family: NunitoSans-L;
     src: url(fonts/NunitoSans-Light.ttf);
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+
+
+}
+
+@media (max-width: 768px) {
+  h1{
+    font-size: 10em;
+  }
+  h2{
+    font-size: 5em;
+  }
+  h5, .inCover{
+    font-size: 3em;
+  }
+
+  p{
+    font-size: 2em;
+  }
+
+}
+
+@media (max-width: 992px) { }
+
+@media (min-width: 1200px) {
 }
